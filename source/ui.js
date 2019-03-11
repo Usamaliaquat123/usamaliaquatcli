@@ -59,8 +59,14 @@ module.exports = () => (
 	<div>
 		<br/>
 		<div>
+			<Text>Hello, I'm Usama Liaquat</Text>
+		</div>
+		<br/>
+		<div>
 			<Text>I'm full stack javaScript developer.</Text>
-			<br />
+		</div>
+		<br/>
+		<div>
 			<Text>wanna to learn more about me 💥</Text>
 		</div>
 		<br/>
