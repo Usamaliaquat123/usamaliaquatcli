@@ -11,9 +11,11 @@ const handleSelect = item => {
 	if (item.url) {
 		open(item.url);
 	}
-
 	if (item.action) {
 		item.action();
+	}
+	if(item.skypeAction){
+		console.log(item.skypeAction())
 	}
 };
 
@@ -40,8 +42,8 @@ const items = [
 	},
 	{
 		label: 'Skype',
-		async action(){
-			console.log('live:inconnent12345')
+		skypeAction(){
+			return 'My skype Id is  ==> live:inconnent12345'
 		}
 	},
 	// TODO: Add separator item here when https://github.com/vadimdemedes/ink-select-input/issues/4 is done
@@ -57,7 +59,9 @@ module.exports = () => (
 	<div>
 		<br/>
 		<div>
-			<Text>I'm just a javaScript developer</Text>
+			<Text>I'm full stack javaScript developer.</Text>
+			<br />
+			<Text>wanna to learn more about me 💥</Text>
 		</div>
 		<br/>
 		<SelectInput items={items} onSelect={handleSelect}/>
