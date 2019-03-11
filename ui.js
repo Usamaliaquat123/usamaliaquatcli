@@ -3,7 +3,7 @@ const path = require('path');
 const {h, Text} = require('ink');
 const SelectInput = require('ink-select-input');
 const opn = require('opn');
-const terminalImage = require('terminal-image');
+
 
 const open = url => opn(url, {wait: false});
 
@@ -42,14 +42,6 @@ const items = [
 		label: 'Skype',
 		async action(){
 			console.log('live:inconnent12345')
-		}
-	},
-	{
-		label: 'Unicorns!',
-		async action() {
-			console.log(await terminalImage.file(path.join(__dirname, 'unicorn1.gif')));
-			console.log(await terminalImage.file(path.join(__dirname, 'unicorn2.gif')));
-			console.log(await terminalImage.file(path.join(__dirname, 'unicorn3.gif')));
 		}
 	},
 	// TODO: Add separator item here when https://github.com/vadimdemedes/ink-select-input/issues/4 is done
