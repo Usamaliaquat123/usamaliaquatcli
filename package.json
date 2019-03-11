@@ -1,6 +1,6 @@
 {
 	"name": "usamaliaquat",
-	"version": "2.0.3",
+	"version": "2.0.5",
 	"description": "The Usama Liaquat CLI",
 	"license": "MIT",
 	"repository": "Usamaliaquat123/usamaliaquat",
@@ -10,7 +10,7 @@
 		"url": "https://www.linkedin.com/in/usama-liaquat-02045b121/"
 	},
 	"bin": {
-		"usamaliaquat": "cli.js"
+		"usamaliaquat": "source/cli.js"
 	},
 	"engines": {
 		"node": ">=8"
