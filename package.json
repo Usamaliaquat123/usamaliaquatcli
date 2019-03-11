@@ -10,7 +10,7 @@
 		"url": "https://www.linkedin.com/in/usama-liaquat-02045b121/"
 	},
 	"bin": {
-		"usamaliaquat": "source/cli.js"
+		"usamaliaquat": "cli.js"
 	},
 	"engines": {
 		"node": ">=8"
