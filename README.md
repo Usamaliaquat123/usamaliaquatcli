@@ -2,7 +2,7 @@
 
 > The [Usama liaquat](https://www.linkedin.com/in/usama-liaquat-02045b121/) CLI
 
-<img src="screenshot.png" width="752">
+<img src="1.png" width="752">
 
 
 ## Usage
