@@ -7,6 +7,8 @@
 
 ## Usage
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Usamaliaquat123/usamaliaquatcli.svg)](https://greenkeeper.io/)
+
 Install Node.js, then:
 
 ```
