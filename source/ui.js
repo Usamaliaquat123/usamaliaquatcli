@@ -21,8 +21,8 @@ const handleSelect = item => {
 
 const items = [
 	{
-		label: 'Blog',
-		url: 'https://medium.com/@JSdevelop'
+		label: 'Aboutr Me',
+		url: 'https://about.me/usamaliaquat'
 	},
 	{
 		label: 'Github',
@@ -30,7 +30,7 @@ const items = [
 	},
 	{
 		label: 'LinkedIn',
-		url: 'https://www.linkedin.com/in/usama-liaquat-02045b121/'
+		url: 'https://www.linkedin.com/in/usamaliaquat'
 	},
 	{
 		label: 'facebook',
